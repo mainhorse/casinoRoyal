@@ -1,0 +1,50 @@
+:root{
+  --color-input-bg : #a3a3a3; 
+  --color-text-input : #2d2929;
+
+
+  --color-form-bg : #eaeaea;
+  --color-btSubmit-form-bg : #161313df;
+
+  --color-button-white : #FFFFFF;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.inputHome{
+  width: 70%;
+  height: 5vh;
+  border-radius: 12px;
+  border: 2px solid var(--color-input-bg);
+  color: var(--color-text-input);
+  padding-left: 10px;
+}
+
+.formHome{
+  background-color: transparent;
+}
+
+.btbSubmit{
+  width : 50%;
+  height : 10%;
+  background-color: var( --color-btSubmit-form-bg );
+  font-size: large;
+  border-radius: 12px;
+  color : var(--color-button-white);
+  border: none;
+  cursor: pointer;
+}
+
+/* User style*/
+
+.liUser{
+  width : 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
